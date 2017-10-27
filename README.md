@@ -84,7 +84,7 @@ Next, clone this repository, `cd` into it and open `index.js`. Change the
 ```js
 const JMDICT_PATH = './JMdict_e';
 ```
-to where ever the **extracted** JMdict file is located.
+to wherever the **extracted** JMdict file is located.
 
 Now simply run
 ```sh
