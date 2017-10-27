@@ -1,0 +1,13 @@
+{
+  "name": "jmdict-parser",
+  "version": "1.0.0",
+  "description": "Converts JMdict XML files into JSON",
+  "main": "index.js",
+  "repository": "https://github.com/tkshnwesper/JMdict-Parser.git",
+  "author": "Saurabh <unknown7bolt@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "xml-escape": "^1.1.0",
+    "xml2js": "^0.4.19"
+  }
+}
