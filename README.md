@@ -92,3 +92,7 @@ node index.js
 ```
 
 It will create a new file called `JMdict.json` in the same directory.
+
+# Download
+
+I have already created one for the English **only** JMdict file. You can grab it from [here](https://droppy.cryf.in/$/qfxsg).
