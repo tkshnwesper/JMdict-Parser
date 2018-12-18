@@ -78,7 +78,7 @@ For more information about the key names read the comments at the start of the o
 
 # How to use
 
-Head over to the [JMdict](http://www.edrdg.org/jmdict/edict_doc.html) website and download the verison of the dictionary file suitable for you. Don't forget to **extract** it.
+Head over to the [JMdict](http://www.edrdg.org/jmdict/edict_doc.html) website and download the version of the dictionary file suitable for you. Don't forget to **extract** it.
 
 Next, clone this repository, `cd` into it and open `index.js`. Change the
 ```js
