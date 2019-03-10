@@ -2,7 +2,7 @@
   "name": "jmdict-parser",
   "version": "2.0.0",
   "description": "Converts JMdict XML files into JSON",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/tkshnwesper/JMdict-Parser.git",
   "author": "Saurabh <unknown7bolt@gmail.com>",
   "license": "Apache-2.0",
