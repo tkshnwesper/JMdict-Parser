@@ -6,9 +6,27 @@
   "repository": "https://github.com/tkshnwesper/JMdict-Parser.git",
   "author": "Saurabh <unknown7bolt@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
   "dependencies": {
     "commander": "^2.19.0",
+    "ink": "^2.0.5",
+    "ink-spinner": "^3.0.0",
+    "react": "^16.8.4",
     "xml-escape": "^1.1.0",
     "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "eslint": "^5.15.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-standard": "^4.0.0"
   }
 }
