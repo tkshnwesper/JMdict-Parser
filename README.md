@@ -2,6 +2,12 @@
 
 It's just a small script that does its job! Let me explain...
 
+## Installation
+
+```
+npm i -g jmdict-parser
+```
+
 #### JMdict
 
 JMdict is a Japanese to X (X being English, and a couple of other languages) dictionary whose files are in XML format.
