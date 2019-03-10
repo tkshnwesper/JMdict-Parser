@@ -10,7 +10,7 @@
     "build": "babel src -d lib",
     "postbuild": "chmod +x ./lib/index.js"
   },
-  "bin": "node ./lib/index.js",
+  "bin": "./lib/index.js",
   "dependencies": {
     "commander": "^2.19.0",
     "ink": "^2.0.5",

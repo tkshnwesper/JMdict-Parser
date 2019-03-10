@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import React from 'react';
 import { execFile } from 'child_process';
 import { render, Color } from 'ink';
