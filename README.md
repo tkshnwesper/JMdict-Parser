@@ -16,13 +16,13 @@ JMdict is a Japanese to X (X being English, and a couple of other languages) dic
 
 #### How it works
 
-That's the thing here. The library that I'm using for parsing the XML data converts it into a Javascript object, and then I write that object to a JSON file.
+It simply reads the JMdict file into a Javascript object and writes that object into a file.
 
 #### Characteristics of the output
 
-The JSON file can be read easily for future use, and it is even ~25% smaller than the original XML file!
+The JSON file can be read easily for future use, and it is even **~25% smaller** than the original XML file!
 
-## Structure of JSON
+## Structure of JSON output
 
 The JSON file is essentially an array of `entry` objects. Here's what one random `entry` object looks like:
 
@@ -78,16 +78,18 @@ For more information about the key names read the comments at the start of the o
 
 ## Usage
 
-1. Head over to the [JMdict](http://www.edrdg.org/jmdict/edict_doc.html) website and download the version of the dictionary file suitable for you. Also, you would need to extract it, since it is previously archived.
+* Head over to the [JMdict](http://www.edrdg.org/jmdict/edict_doc.html) website and download the version of the dictionary file suitable for you. Also, you would need to extract it as it would be archived.
 
-2. Install the CLI. See [here](#Installation).
+* Install the CLI. See [here](#Installation).
 
-3. You may run the it as follows:
+* You may run the it as follows:
 
 ```ShellSession
 jmdict-parser <your_edict_file>
 ```
 
+* This would generate a `.json` file in the same location as the original file.
+
 ## Download a sample
 
-I have already created one for the English **only** JMdict file. You can grab it from [here](https://droppy.cryf.in/$/qfxsg).
+I have already created one for the English only JMdict file. You may download it from [here](https://droppy.cryf.in/$/qfxsg).
