@@ -1,4 +1,4 @@
-# What this is
+# JMdict Parser
 
 It is a CLI application that parses a JMdict XML and spits out a JSON file.
 
