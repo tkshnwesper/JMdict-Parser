@@ -9,6 +9,7 @@
   "scripts": {
     "build": "babel src -d lib"
   },
+  "bin": "node ./lib/index.js",
   "dependencies": {
     "commander": "^2.19.0",
     "ink": "^2.0.5",
