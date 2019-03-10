@@ -1,5 +1,7 @@
 # JMdict Parser
 
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/tkshnwesper/JMdict-Parser.svg?columns=all)](https://waffle.io/tkshnwesper/JMdict-Parser)
+
 It is a CLI application that parses a JMdict XML and spits out a JSON file.
 
 ## Installation
