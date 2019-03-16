@@ -1,5 +1,7 @@
 # JMdict Parser
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tkshnwesper/JMdict-Parser.svg)](https://greenkeeper.io/)
+
 It is a CLI application that parses a JMdict XML and spits out a JSON file.
 
 ## Installation
