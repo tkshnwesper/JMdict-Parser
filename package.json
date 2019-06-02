@@ -8,7 +8,8 @@
   "license": "Apache-2.0",
   "scripts": {
     "build": "babel src -d lib",
-    "postbuild": "chmod +x ./lib/index.js"
+    "postbuild": "chmod +x ./lib/index.js",
+    "prepublishOnly": "npm run build"
   },
   "bin": "./lib/index.js",
   "dependencies": {

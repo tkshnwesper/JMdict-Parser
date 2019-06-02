@@ -16,6 +16,7 @@ class JMDictParser extends React.Component {
     super(props);
     this.state = {
       complete: false,
+      started: false,
       outputFilename: '',
     };
   }
@@ -25,6 +26,7 @@ class JMDictParser extends React.Component {
       .version(VERSION, '-v, --version')
       .arguments('<file>')
       .action((file) => {
+        this.setState({ started: true });
         this.state.outputFilename = `${file}.json`;
         execFile(
           'node',
@@ -51,7 +53,7 @@ class JMDictParser extends React.Component {
   }
 
   render() {
-    const { complete, outputFilename } = this.state;
+    const { complete, outputFilename, started } = this.state;
     return (
       complete
         ? (
@@ -63,7 +65,7 @@ class JMDictParser extends React.Component {
             </div>
           </React.Fragment>
         )
-        : (
+        : started && (
           <Color green>
             <Spinner green />
             {' '}
